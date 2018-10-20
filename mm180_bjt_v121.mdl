@@ -1,0 +1,32 @@
+******************************************************************************************
+*                  0.18um MIXED MODE Vertical PNP Model(Emitter area: 25 um2)            *
+******************************************************************************************
+.model pnp_v50x50_mm pnp
++level  =  1                                is     = '5.6e-18*dis_pnp_v50x50_mm'       bf     = '1.38*dbf_pnp_v50x50_mm'          
++nf     = '1.034*dnf_pnp_v50x50_mm'         vaf    =  785                              ikf    =  0.0021                           
++ise    =  1e-20                            ne     =  1.049                            br     =  0.00013                          
++nr     =  1.02                             var    =  55                               ikr    =  0.0021                           
++isc    =  1.05e-12                         nc     =  1.44                             rb     =  266.4                            
++irb    =  2.3e-05                          rbm    =  59.48                            re     = '0.001*dre_pnp_v50x50_mm'         
++rc     = '0.12*drc_pnp_v50x50_mm'          tlevc  =  1                                xtb    =  1.48                             
++eg     =  1.17                             xti    =  2.38                             trb1   =  0.0035                           
++cje    = '2.85e-14*dcje_pnp_v50x50_mm'     vje    =  0.762                            mje    =  0.395                            
++cjc    = '2.81e-14*dcjc_pnp_v50x50_mm'     vjc    =  0.458                            mjc    =  0.75                             
++fc     =  0.5                              trm1   =  0.0035                           trm2   =  0                                
+*
+******************************************************************************************
+*                  0.18um MIXED MODE Vertical PNP Model(Emitter area: 100 um2)           *
+******************************************************************************************
+.model pnp_v100x100_mm pnp
++level  =  1                                is     = '2.8e-17*dis_pnp_v100x100_mm'     bf     = '1.36*dbf_pnp_v100x100_mm'        
++nf     = '1.054*dnf_pnp_v100x100_mm'       vaf    =  785                              ikf    =  0.005                            
++ise    =  1.1e-18                          ne     =  1.049                            br     =  0.00063                          
++nr     =  1.06                             var    =  55                               ikr    =  0.027                            
++isc    =  1.95e-12                         nc     =  1.44                             rb     =  66.4                             
++irb    =  1e-06                            rbm    =  59.48                            re     = '0.001*dre_pnp_v100x100_mm'       
++rc     = '0.12*drc_pnp_v100x100_mm'        tlevc  =  1                                xtb    =  1.298                            
++eg     =  1.17                             xti    =  1.98                             trb1   =  0.004                            
++tre1   =  0.001                            cje    = '1.14e-13*dcje_pnp_v100x100_mm'   vje    =  0.762                            
++mje    =  0.395                            cjc    = '4.81e-14*dcjc_pnp_v100x100_mm'   vjc    =  0.458                            
++mjc    =  0.75                             fc     =  0.5                              trm1   =  0.004                            
++trm2   =  0                                

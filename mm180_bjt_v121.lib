@@ -1,0 +1,52 @@
+********************************************************************************
+* TT:   Typical n-ch MOSFET and Typical p-ch MOSFET
+* FF:   Fast n-ch MOSFET and Fast p-ch MOSFET
+* SS:   Slow n-ch MOSFET and Slow p-ch MOSFET
+* FNSP: Fast n-ch MOSFET and Slow p-ch MOSFET
+* SNFP: Slow n-ch MOSFET and Fast p-ch MOSFET
+********************************************************************************
+* 
+.lib tt_bip
+.param
+* 
++dis_pnp_v50x50_mm    =  1.0000000e+000   dbf_pnp_v50x50_mm    =  1.0000000e+000   dnf_pnp_v50x50_mm    =  1.0000000e+000   
++dre_pnp_v50x50_mm    =  1.0000000e+000   drc_pnp_v50x50_mm    =  1.0000000e+000   dcjc_pnp_v50x50_mm   =  1.0000000e+000   
++dcje_pnp_v50x50_mm   =  1.0000000e+000   
+* 
++dis_pnp_v100x100_mm  =  1.0000000e+000   dbf_pnp_v100x100_mm  =  1.0000000e+000   dnf_pnp_v100x100_mm  =  1.0000000e+000   
++dre_pnp_v100x100_mm  =  1.0000000e+000   drc_pnp_v100x100_mm  =  1.0000000e+000   dcjc_pnp_v100x100_mm =  1.0000000e+000   
++dcje_pnp_v100x100_mm =  1.0000000e+000   
+* 
+.include  'mm180_bjt_v121.mdl' 
+* 
+.endl tt_bip
+* 
+.lib ff_bip
+.param
+* 
++dis_pnp_v50x50_mm    =  0.8000000e+000   dbf_pnp_v50x50_mm    =  1.1500000e+000   dnf_pnp_v50x50_mm    =  0.9950000e+000   
++dre_pnp_v50x50_mm    =  0.8000000e+000   drc_pnp_v50x50_mm    =  0.8000000e+000   dcjc_pnp_v50x50_mm   =  0.9000000e+000   
++dcje_pnp_v50x50_mm   =  0.9000000e+000   
+* 
++dis_pnp_v100x100_mm  =  0.8000000e+000   dbf_pnp_v100x100_mm  =  1.1500000e+000   dnf_pnp_v100x100_mm  =  0.9950000e+000   
++dre_pnp_v100x100_mm  =  0.8000000e+000   drc_pnp_v100x100_mm  =  0.8000000e+000   dcjc_pnp_v100x100_mm =  0.9000000e+000   
++dcje_pnp_v100x100_mm =  0.9000000e+000   
+* 
+.include  'mm180_bjt_v121.mdl' 
+* 
+.endl ff_bip
+* 
+.lib ss_bip
+.param
+* 
++dis_pnp_v50x50_mm    =  1.2000000e+000   dbf_pnp_v50x50_mm    =  0.8500000e+000   dnf_pnp_v50x50_mm    =  1.0050000e+000   
++dre_pnp_v50x50_mm    =  1.2000000e+000   drc_pnp_v50x50_mm    =  1.2000000e+000   dcjc_pnp_v50x50_mm   =  1.1000000e+000   
++dcje_pnp_v50x50_mm   =  1.1000000e+000   
+* 
++dis_pnp_v100x100_mm  =  1.2000000e+000   dbf_pnp_v100x100_mm  =  0.8500000e+000   dnf_pnp_v100x100_mm  =  1.0050000e+000   
++dre_pnp_v100x100_mm  =  1.2000000e+000   drc_pnp_v100x100_mm  =  1.2000000e+000   dcjc_pnp_v100x100_mm =  1.1000000e+000   
++dcje_pnp_v100x100_mm =  1.1000000e+000   
+* 
+.include  'mm180_bjt_v121.mdl' 
+* 
+.endl ss_bip

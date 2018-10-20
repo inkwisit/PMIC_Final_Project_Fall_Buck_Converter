@@ -1,0 +1,14 @@
+* 
+
+.param
+* 
++dis_pnp_v50x50_mm    =  1.0000000e+000   dbf_pnp_v50x50_mm    =  1.0000000e+000   dnf_pnp_v50x50_mm    =  1.0000000e+000   
++dre_pnp_v50x50_mm    =  1.0000000e+000   drc_pnp_v50x50_mm    =  1.0000000e+000   dcjc_pnp_v50x50_mm   =  1.0000000e+000   
++dcje_pnp_v50x50_mm   =  1.0000000e+000   
+* 
++dis_pnp_v100x100_mm  =  1.0000000e+000   dbf_pnp_v100x100_mm  =  1.0000000e+000   dnf_pnp_v100x100_mm  =  1.0000000e+000   
++dre_pnp_v100x100_mm  =  1.0000000e+000   drc_pnp_v100x100_mm  =  1.0000000e+000   dcjc_pnp_v100x100_mm =  1.0000000e+000   
++dcje_pnp_v100x100_mm =  1.0000000e+000   
+* 
+.include  'mm180_bjt_v121.mdl' 
+* 
