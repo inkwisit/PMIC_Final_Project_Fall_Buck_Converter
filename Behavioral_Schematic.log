@@ -35,22 +35,21 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Heightened Def Con from 5.518e-005 to 5.518e-005
 
-Date: Sat Oct 20 11:44:16 2018
-Total elapsed time: 133.935 seconds.
+Date: Sat Oct 20 15:19:49 2018
+Total elapsed time: 132.754 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 5779989
-traniter = 5778362
-tranpoints = 1794973
-accept = 1200126
-rejected = 594848
+totiter = 5607070
+traniter = 5605443
+tranpoints = 1735542
+accept = 1210805
+rejected = 524737
 matrix size = 18
 fillins = 0
 solver = Normal
-Matrix Compiler1: 494 bytes object code size  0.6/0.5/[0.4]
-Matrix Compiler2: 966 bytes object code size  0.4/0.7/[0.4]
+Matrix Compiler1: 494 bytes object code size  0.6/0.4/[0.4]
+Matrix Compiler2: off  [0.4]/3.7/0.4
 

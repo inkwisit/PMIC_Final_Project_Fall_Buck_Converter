@@ -1,7 +1,7 @@
 * C:\Users\subha\OneDrive\Documents\GitHub\PMIC_Final_Project_Fall_Buck_Converter\Behavioral_Schematic.asc
 V1 N001 0 PULSE(0 1.8 0 1n)
-L1 N007 N008 0.47µ Ipk=3.8 Rser=32m
-C1 N008 0 47µ Rser=10m Lser=1n
+L1 N007 N008 0.47µ Rser=32m
+C1 N008 0 47µ Lser=1n
 M1 N007 N005 N001 N001 CMOSP l=180n w=100u m=500
 M2 N007 N010 0 0 CMOSN l=180n w=100u m=200
 I1 N008 0 PULSE(0 100m 200u)
@@ -16,15 +16,17 @@ V2 N015 0 PULSE(0 0.7 0 1n)
 V3 N013 0 PULSE(0 1.8 0 62.5n 62.5n 0u 125n)
 G1 0 N012 N014 N015 100
 A8 N013 N012 0 0 0 0 N002 0 SCHMITT Vhigh=1.8, Vlow=0, Vt=0
-R2 N012 0 100
 R3 N008 N014 10k
 R4 N014 0 10k
+C2 N012 0 4.76m
+R1 N012 0 100k
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\subha\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
-.tran 500u
+.tran 10m
 .include tsmc018.lib
 .param td 1n
 .param trf 1n
+* Putting 1nH ESL in capacitor makes the loop unstable.
 .backanno
 .end
