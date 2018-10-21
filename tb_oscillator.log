@@ -14,24 +14,23 @@ Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-.OP point found by inspection.
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 1.05633e-007 to 1.06133e-007
 
-Date: Sun Oct 21 17:34:57 2018
-Total elapsed time: 0.571 seconds.
+Date: Sun Oct 21 19:32:27 2018
+Total elapsed time: 0.589 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2309
-traniter = 2309
-tranpoints = 1091
-accept = 1076
-rejected = 15
-matrix size = 21
+totiter = 2726
+traniter = 2685
+tranpoints = 1192
+accept = 1153
+rejected = 40
+matrix size = 23
 fillins = 10
 solver = Normal
-Matrix Compiler1: 2.09 KB object code size  1.5/1.1/[0.8]
-Matrix Compiler2: 2.11 KB object code size  0.7/1.1/[0.6]
+Matrix Compiler1: 2.08 KB object code size  1.6/1.2/[0.8]
+Matrix Compiler2: 2.15 KB object code size  0.7/1.2/[0.6]
 
