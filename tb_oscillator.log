@@ -4,6 +4,38 @@ Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
@@ -28,21 +60,21 @@ Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 .OP point found by inspection.
 
-Date: Wed Oct 24 22:11:53 2018
-Total elapsed time: 161.242 seconds.
+Date: Wed Oct 24 22:50:15 2018
+Total elapsed time: 406.161 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 412776
-traniter = 412776
-tranpoints = 201361
-accept = 200734
-rejected = 627
-matrix size = 30
-fillins = 46
+totiter = 412430
+traniter = 412430
+tranpoints = 201037
+accept = 200434
+rejected = 603
+matrix size = 74
+fillins = 139
 solver = Normal
-Thread vector: 142.2/73.6[2] 39.0/19.8[2] 7.2/4.3[2] 1.1/7.5[1]  2592/500
-Matrix Compiler1: 6.92 KB object code size  10.3/7.0/[4.1]
-Matrix Compiler2: 4.03 KB object code size  4.4/5.1/[1.9]
+Thread vector: 816.1/296.7[4] 191.6/41.7[4] 20.7/24.2[1] 2.8/14.4[1]  2592/500
+Matrix Compiler1: 19.18 KB object code size  24.2/17.5/[8.9]
+Matrix Compiler2: off  [3.6]/10.2/4.1
 
