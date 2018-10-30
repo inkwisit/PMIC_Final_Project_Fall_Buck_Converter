@@ -2,7 +2,7 @@
 XX1 N001 N002 N003 0 vout error_amplifier
 V1 N001 0 1.8
 V2 N002 0 0.8
-V3 N003 0 PULSE(0.2 1.2 2n 1n) AC 1
+V3 N003 0 0.8 AC 1
 
 * block symbol definitions
 .subckt error_amplifier VDDA VINN VINP GNDA VOUT
@@ -26,7 +26,6 @@ M13 GNDA N005 N004 N004 CMOSP l=180n w=5u
 M14 N004 N001 VDDA VDDA CMOSP l=180n w=5u
 M15 N003 N009 GNDA GNDA CMOSN l=180n w=1u
 M16 VDDA N004 N003 N003 CMOSN l=180n w=1u
-C1 N006 N005 10f
 .include tsmc018.lib
 .ends error_amplifier
 
@@ -36,8 +35,7 @@ C1 N006 N005 10f
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\subha\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
-;ac dec 20 100 1G
-;op
-.tran 0 10n 0 1p
+.op
+.ac dec 20 100 1G
 .backanno
 .end
