@@ -1,8 +1,8 @@
-* C:\Users\subha\OneDrive\Documents\GitHub\PMIC_Final_Project_Fall_Buck_Converter\tb_error_amplifier.asc
+* C:\Users\subha\OneDrive\Documents\GitHub\PMIC_Final_Project_Fall_Buck_Converter\tb_error_amplifier_ac.asc
 XX1 N001 N002 N003 0 vout error_amplifier
 V1 N001 0 1.8
-V2 N002 0 0.8
 V3 N003 0 0.8 AC 1
+V2 N002 0 0.8
 
 * block symbol definitions
 .subckt error_amplifier VDDA VINN VINP GNDA VOUT
@@ -26,6 +26,7 @@ M13 GNDA N005 N004 N004 CMOSP l=180n w=5u
 M14 N004 N001 VDDA VDDA CMOSP l=180n w=5u
 M15 N003 N009 GNDA GNDA CMOSN l=180n w=1u
 M16 VDDA N004 N003 N003 CMOSN l=180n w=1u
+C1 N006 N005 10f
 .include tsmc018.lib
 .ends error_amplifier
 
