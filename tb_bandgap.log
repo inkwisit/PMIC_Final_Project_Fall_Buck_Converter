@@ -1,0 +1,370 @@
+Circuit: * C:\Users\subha\OneDrive\Documents\GitHub\PMIC_Final_Project_Fall_Buck_Converter\tb_bandgap.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+.OP point found by inspection.
+.step temp=-40°C
+.step temp=-39°C
+.step temp=-38°C
+.step temp=-37°C
+.step temp=-36°C
+.step temp=-35°C
+.step temp=-34°C
+.step temp=-33°C
+.step temp=-32°C
+.step temp=-31°C
+.step temp=-30°C
+.step temp=-29°C
+.step temp=-28°C
+.step temp=-27°C
+.step temp=-26°C
+.step temp=-25°C
+.step temp=-24°C
+.step temp=-23°C
+.step temp=-22°C
+.step temp=-21°C
+.step temp=-20°C
+.step temp=-19°C
+.step temp=-18°C
+.step temp=-17°C
+.step temp=-16°C
+.step temp=-15°C
+.step temp=-14°C
+.step temp=-13°C
+.step temp=-12°C
+.step temp=-11°C
+.step temp=-10°C
+.step temp=-9°C
+.step temp=-8°C
+.step temp=-7°C
+.step temp=-6°C
+.step temp=-5°C
+.step temp=-4°C
+.step temp=-3°C
+.step temp=-2°C
+.step temp=-1°C
+.step temp=0°C
+.step temp=1°C
+.step temp=2°C
+.step temp=3°C
+.step temp=4°C
+.step temp=5°C
+.step temp=6°C
+.step temp=7°C
+.step temp=8°C
+.step temp=9°C
+.step temp=10°C
+.step temp=11°C
+.step temp=12°C
+.step temp=13°C
+.step temp=14°C
+.step temp=15°C
+.step temp=16°C
+.step temp=17°C
+.step temp=18°C
+.step temp=19°C
+.step temp=20°C
+.step temp=21°C
+.step temp=22°C
+.step temp=23°C
+.step temp=24°C
+.step temp=25°C
+.step temp=26°C
+.step temp=27°C
+.step temp=28°C
+.step temp=29°C
+.step temp=30°C
+.step temp=31°C
+.step temp=32°C
+.step temp=33°C
+.step temp=34°C
+.step temp=35°C
+.step temp=36°C
+.step temp=37°C
+.step temp=38°C
+.step temp=39°C
+.step temp=40°C
+.step temp=41°C
+.step temp=42°C
+.step temp=43°C
+.step temp=44°C
+.step temp=45°C
+.step temp=46°C
+.step temp=47°C
+.step temp=48°C
+.step temp=49°C
+.step temp=50°C
+.step temp=51°C
+.step temp=52°C
+.step temp=53°C
+.step temp=54°C
+.step temp=55°C
+.step temp=56°C
+.step temp=57°C
+.step temp=58°C
+.step temp=59°C
+.step temp=60°C
+.step temp=61°C
+.step temp=62°C
+.step temp=63°C
+.step temp=64°C
+.step temp=65°C
+.step temp=66°C
+.step temp=67°C
+.step temp=68°C
+.step temp=69°C
+.step temp=70°C
+.step temp=71°C
+.step temp=72°C
+.step temp=73°C
+.step temp=74°C
+.step temp=75°C
+.step temp=76°C
+.step temp=77°C
+.step temp=78°C
+.step temp=79°C
+.step temp=80°C
+.step temp=81°C
+.step temp=82°C
+.step temp=83°C
+.step temp=84°C
+.step temp=85°C
+.step temp=86°C
+.step temp=87°C
+.step temp=88°C
+.step temp=89°C
+.step temp=90°C
+.step temp=91°C
+.step temp=92°C
+.step temp=93°C
+.step temp=94°C
+.step temp=95°C
+.step temp=96°C
+.step temp=97°C
+.step temp=98°C
+.step temp=99°C
+.step temp=100°C
+.step temp=101°C
+.step temp=102°C
+.step temp=103°C
+.step temp=104°C
+.step temp=105°C
+.step temp=106°C
+.step temp=107°C
+.step temp=108°C
+.step temp=109°C
+.step temp=110°C
+.step temp=111°C
+.step temp=112°C
+.step temp=113°C
+.step temp=114°C
+.step temp=115°C
+.step temp=116°C
+.step temp=117°C
+.step temp=118°C
+.step temp=119°C
+.step temp=120°C
+.step temp=121°C
+.step temp=122°C
+.step temp=123°C
+.step temp=124°C
+.step temp=125°C
+
+
+Measurement: vreference
+  step	v(vref)	at
+     1	0.78814	4.9e-005
+     2	0.788315	4.9e-005
+     3	0.788491	4.9e-005
+     4	0.78867	4.9e-005
+     5	0.78885	4.9e-005
+     6	0.789031	4.9e-005
+     7	0.789214	4.9e-005
+     8	0.789399	4.9e-005
+     9	0.789585	4.9e-005
+    10	0.789773	4.9e-005
+    11	0.789962	4.9e-005
+    12	0.790153	4.9e-005
+    13	0.790345	4.9e-005
+    14	0.790538	4.9e-005
+    15	0.790732	4.9e-005
+    16	0.790927	4.9e-005
+    17	0.791124	4.9e-005
+    18	0.791321	4.9e-005
+    19	0.791519	4.9e-005
+    20	0.791718	4.9e-005
+    21	0.791917	4.9e-005
+    22	0.792117	4.9e-005
+    23	0.792318	4.9e-005
+    24	0.792518	4.9e-005
+    25	0.792719	4.9e-005
+    26	0.79292	4.9e-005
+    27	0.79312	4.9e-005
+    28	0.793321	4.9e-005
+    29	0.793521	4.9e-005
+    30	0.793721	4.9e-005
+    31	0.793919	4.9e-005
+    32	0.794118	4.9e-005
+    33	0.794315	4.9e-005
+    34	0.794511	4.9e-005
+    35	0.794707	4.9e-005
+    36	0.794901	4.9e-005
+    37	0.795093	4.9e-005
+    38	0.795284	4.9e-005
+    39	0.795473	4.9e-005
+    40	0.795661	4.9e-005
+    41	0.795846	4.9e-005
+    42	0.796029	4.9e-005
+    43	0.79621	4.9e-005
+    44	0.796389	4.9e-005
+    45	0.796564	4.9e-005
+    46	0.796737	4.9e-005
+    47	0.796907	4.9e-005
+    48	0.797074	4.9e-005
+    49	0.797237	4.9e-005
+    50	0.797397	4.9e-005
+    51	0.797552	4.9e-005
+    52	0.797703	4.9e-005
+    53	0.797849	4.9e-005
+    54	0.79799	4.9e-005
+    55	0.798125	4.9e-005
+    56	0.798254	4.9e-005
+    57	0.798375	4.9e-005
+    58	0.798489	4.9e-005
+    59	0.798593	4.9e-005
+    60	0.798688	4.9e-005
+    61	0.798772	4.9e-005
+    62	0.798843	4.9e-005
+    63	0.7989	4.9e-005
+    64	0.798941	4.9e-005
+    65	0.798966	4.9e-005
+    66	0.798973	4.9e-005
+    67	0.79896	4.9e-005
+    68	0.798927	4.9e-005
+    69	0.798872	4.9e-005
+    70	0.798795	4.9e-005
+    71	0.798696	4.9e-005
+    72	0.798575	4.9e-005
+    73	0.798432	4.9e-005
+    74	0.798268	4.9e-005
+    75	0.798083	4.9e-005
+    76	0.797877	4.9e-005
+    77	0.797652	4.9e-005
+    78	0.797408	4.9e-005
+    79	0.797146	4.9e-005
+    80	0.796866	4.9e-005
+    81	0.79657	4.9e-005
+    82	0.796257	4.9e-005
+    83	0.795929	4.9e-005
+    84	0.795586	4.9e-005
+    85	0.795228	4.9e-005
+    86	0.794856	4.9e-005
+    87	0.79447	4.9e-005
+    88	0.794072	4.9e-005
+    89	0.793661	4.9e-005
+    90	0.793237	4.9e-005
+    91	0.792802	4.9e-005
+    92	0.792355	4.9e-005
+    93	0.791896	4.9e-005
+    94	0.791427	4.9e-005
+    95	0.790947	4.9e-005
+    96	0.790457	4.9e-005
+    97	0.789957	4.9e-005
+    98	0.789447	4.9e-005
+    99	0.788927	4.9e-005
+   100	0.788399	4.9e-005
+   101	0.787861	4.9e-005
+   102	0.787314	4.9e-005
+   103	0.786759	4.9e-005
+   104	0.786196	4.9e-005
+   105	0.785625	4.9e-005
+   106	0.785047	4.9e-005
+   107	0.78446	4.9e-005
+   108	0.783867	4.9e-005
+   109	0.783267	4.9e-005
+   110	0.782659	4.9e-005
+   111	0.782046	4.9e-005
+   112	0.781426	4.9e-005
+   113	0.7808	4.9e-005
+   114	0.780168	4.9e-005
+   115	0.77953	4.9e-005
+   116	0.778887	4.9e-005
+   117	0.778239	4.9e-005
+   118	0.777586	4.9e-005
+   119	0.776928	4.9e-005
+   120	0.776265	4.9e-005
+   121	0.775598	4.9e-005
+   122	0.774927	4.9e-005
+   123	0.774252	4.9e-005
+   124	0.773572	4.9e-005
+   125	0.772889	4.9e-005
+   126	0.772203	4.9e-005
+   127	0.771513	4.9e-005
+   128	0.77082	4.9e-005
+   129	0.770124	4.9e-005
+   130	0.769425	4.9e-005
+   131	0.768723	4.9e-005
+   132	0.768018	4.9e-005
+   133	0.76731	4.9e-005
+   134	0.7666	4.9e-005
+   135	0.765888	4.9e-005
+   136	0.765173	4.9e-005
+   137	0.764456	4.9e-005
+   138	0.763736	4.9e-005
+   139	0.763015	4.9e-005
+   140	0.762291	4.9e-005
+   141	0.761566	4.9e-005
+   142	0.760838	4.9e-005
+   143	0.760108	4.9e-005
+   144	0.759376	4.9e-005
+   145	0.758642	4.9e-005
+   146	0.757907	4.9e-005
+   147	0.757169	4.9e-005
+   148	0.756429	4.9e-005
+   149	0.755687	4.9e-005
+   150	0.754943	4.9e-005
+   151	0.754197	4.9e-005
+   152	0.753449	4.9e-005
+   153	0.752698	4.9e-005
+   154	0.751946	4.9e-005
+   155	0.75119	4.9e-005
+   156	0.750433	4.9e-005
+   157	0.749673	4.9e-005
+   158	0.74891	4.9e-005
+   159	0.748144	4.9e-005
+   160	0.747376	4.9e-005
+   161	0.746604	4.9e-005
+   162	0.745829	4.9e-005
+   163	0.745051	4.9e-005
+   164	0.744269	4.9e-005
+   165	0.743483	4.9e-005
+   166	0.742694	4.9e-005
+
+
+Date: Sat Nov 03 22:16:44 2018
+Total elapsed time: 92.040 seconds.
+
+tnom = 27
+temp = 125
+method = modified trap
+totiter = 2307
+traniter = 2307
+tranpoints = 1113
+accept = 1095
+rejected = 18
+matrix size = 46
+fillins = 8
+solver = Normal
+Matrix Compiler1: 4.06 KB object code size  2.5/1.9/[1.4]
+Matrix Compiler2: off  [1.0]/2.2/1.1
+
