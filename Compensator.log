@@ -4,6 +4,20 @@ Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
@@ -16,8 +30,8 @@ Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Direct Newton iteration for .op point succeeded.
 
-Date: Sun Nov 04 13:00:15 2018
-Total elapsed time: 0.390 seconds.
+Date: Sun Nov 04 15:26:36 2018
+Total elapsed time: 0.520 seconds.
 
 tnom = 27
 temp = 27
@@ -27,8 +41,8 @@ traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 29
-fillins = 16
+matrix size = 55
+fillins = 30
 solver = Normal
-Matrix Compiler1:     156 opcodes
-Matrix Compiler2: 2.73 KB object code size
+Matrix Compiler1:     299 opcodes
+Matrix Compiler2: 5.20 KB object code size
