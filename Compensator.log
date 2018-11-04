@@ -91,8 +91,8 @@ dQbdVsb:  -2.14e-16   -2.62e-16   -2.61e-16   -1.04e-16   -1.03e-16
 
 
 
-Date: Sun Nov 04 13:14:40 2018
-Total elapsed time: 0.356 seconds.
+Date: Mon Nov 05 02:30:14 2018
+Total elapsed time: 0.433 seconds.
 
 tnom = 27
 temp = 27
@@ -102,8 +102,8 @@ traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 28
+matrix size = 29
 fillins = 16
 solver = Normal
-Matrix Compiler1:     148 opcodes
-Matrix Compiler2: 2.62 KB object code size
+Matrix Compiler1:     156 opcodes
+Matrix Compiler2: 2.73 KB object code size
