@@ -4,6 +4,20 @@ Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
@@ -17,26 +31,78 @@ Warning: Ps = 0 is less than W.
 Direct Newton iteration for .op point succeeded.
 Semiconductor Device Operating Points:
                         --- Bipolar Transistors ---
-Name:     q:x1:2      q:x1:1
-Model:    2n3904      2n3904
-Ib:       1.15e-08    1.70e-08
-Ic:       3.46e-06    5.14e-06
-Vbe:      5.09e-01    5.19e-01
-Vbc:     -2.57e-01   -5.09e-01
-Vce:      7.65e-01    1.03e+00
-BetaDC:   3.01e+02    3.02e+02
-Gm:       1.34e-04    1.99e-04
-Rpi:      2.24e+06    1.52e+06
-Rx:       2.00e+01    2.00e+01
-Ro:       2.89e+07    1.96e+07
-Cbe:      1.13e-11    1.14e-11
-Cbc:      3.63e-12    3.37e-12
-Cjs:      0.00e+00    0.00e+00
-BetaAC:   3.01e+02    3.01e+02
-Cbx:      0.00e+00    0.00e+00
-Ft:       1.43e+06    2.14e+06
+Name:     q:x2:2      q:x2:1      q:x1:2      q:x1:1
+Model:    2n3904      2n3904      2n3904      2n3904
+Ib:       1.15e-08    1.70e-08    1.15e-08    1.70e-08
+Ic:       3.46e-06    5.14e-06    3.46e-06    5.14e-06
+Vbe:      5.09e-01    5.19e-01    5.09e-01    5.19e-01
+Vbc:     -2.57e-01   -5.09e-01   -2.57e-01   -5.09e-01
+Vce:      7.65e-01    1.03e+00    7.65e-01    1.03e+00
+BetaDC:   3.01e+02    3.02e+02    3.01e+02    3.02e+02
+Gm:       1.34e-04    1.99e-04    1.34e-04    1.99e-04
+Rpi:      2.24e+06    1.52e+06    2.24e+06    1.52e+06
+Rx:       2.00e+01    2.00e+01    2.00e+01    2.00e+01
+Ro:       2.89e+07    1.96e+07    2.89e+07    1.96e+07
+Cbe:      1.13e-11    1.14e-11    1.13e-11    1.14e-11
+Cbc:      3.63e-12    3.37e-12    3.63e-12    3.37e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   3.01e+02    3.01e+02    3.01e+02    3.01e+02
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       1.43e+06    2.14e+06    1.43e+06    2.14e+06
 
                         --- BSIM3 MOSFETS ---
+Name:      m:x2:8      m:x2:6      m:x2:5      m:x2:2      m:x2:12
+Model:    x2:cmosn    x2:cmosn    x2:cmosn    x2:cmosn    x2:cmosn
+Id:        7.97e-06    2.69e-06    2.71e-06    5.41e-06    4.07e-06
+Vgs:       5.15e-01    5.44e-01    5.46e-01    5.15e-01    5.15e-01
+Vds:       8.90e-01    1.02e+00    9.86e-01    2.56e-01    5.15e-01
+Vbs:       0.00e+00   -2.56e-01   -2.56e-01    0.00e+00    0.00e+00
+Vth:       4.89e-01    5.48e-01    5.48e-01    4.93e-01    4.83e-01
+Vdsat:     5.91e-02    5.29e-02    5.31e-02    5.77e-02    6.07e-02
+Gm:        1.56e-04    5.72e-05    5.75e-05    1.12e-04    8.03e-05
+Gds:       4.05e-06    1.50e-06    1.52e-06    4.57e-06    2.50e-06
+Gmb        4.00e-05    1.38e-05    1.39e-05    2.89e-05    2.10e-05
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     1.65e-15    8.23e-16    8.23e-16    1.65e-15    8.23e-16
+Cgdov:     1.65e-15    8.23e-16    8.23e-16    1.65e-15    8.23e-16
+Cgbov:     1.46e-19    1.46e-19    1.46e-19    1.46e-19    1.46e-19
+dQgdVgb:   4.92e-15    2.29e-15    2.30e-15    4.88e-15    2.49e-15
+dQgdVdb:  -1.64e-15   -8.20e-16   -8.20e-16   -1.64e-15   -8.19e-16
+dQgdVsb:  -2.97e-15   -1.29e-15   -1.30e-15   -2.92e-15   -1.52e-15
+dQddVgb:  -2.20e-15   -1.02e-15   -1.02e-15   -2.18e-15   -1.11e-15
+dQddVdb:   1.64e-15    8.21e-16    8.21e-16    1.64e-15    8.21e-16
+dQddVsb:   7.13e-16    2.48e-16    2.52e-16    6.86e-16    3.75e-16
+dQbdVgb:  -5.27e-16   -2.56e-16   -2.56e-16   -5.27e-16   -2.61e-16
+dQbdVdb:   5.62e-19    1.56e-19    1.57e-19   -8.27e-19    2.43e-19
+dQbdVsb:  -1.05e-16   -2.47e-17   -2.51e-17   -1.03e-16   -5.46e-17
+
+Name:      m:x2:7      m:x2:4      m:x2:3      m:x2:11     m:x2:1
+Model:    x2:cmosp    x2:cmosp    x2:cmosp    x2:cmosp    x2:cmosp
+Id:       -7.97e-06   -2.69e-06   -2.71e-06   -4.07e-06   -3.46e-06
+Vgs:      -5.20e-01   -5.59e-01   -5.59e-01   -5.16e-01   -5.16e-01
+Vds:      -9.10e-01   -5.20e-01   -5.59e-01   -1.29e+00   -5.16e-01
+Vbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:      -5.06e-01   -4.51e-01   -4.51e-01   -5.03e-01   -5.06e-01
+Vdsat:    -6.20e-02   -1.04e-01   -1.04e-01   -6.15e-02   -6.07e-02
+Gm:        1.61e-04    3.95e-05    3.97e-05    8.18e-05    7.08e-05
+Gds:       1.57e-06    4.59e-07    4.40e-07    7.00e-07    9.96e-07
+Gmb        4.82e-05    1.17e-05    1.18e-05    2.44e-05    2.12e-05
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     6.35e-15    1.27e-15    1.27e-15    3.18e-15    3.18e-15
+Cgdov:     6.35e-15    1.27e-15    1.27e-15    3.18e-15    3.18e-15
+Cgbov:     1.21e-19    3.01e-19    3.01e-19    1.21e-19    1.21e-19
+dQgdVgb:   1.89e-14    6.67e-15    6.67e-15    9.41e-15    9.36e-15
+dQgdVdb:  -6.34e-15   -1.26e-15   -1.26e-15   -3.17e-15   -3.17e-15
+dQgdVsb:  -1.14e-14   -5.20e-15   -5.20e-15   -5.68e-15   -5.61e-15
+dQddVgb:  -8.35e-15   -2.87e-15   -2.87e-15   -4.16e-15   -4.14e-15
+dQddVdb:   6.34e-15    1.27e-15    1.27e-15    3.17e-15    3.17e-15
+dQddVsb:   2.64e-15    2.09e-15    2.09e-15    1.30e-15    1.27e-15
+dQbdVgb:  -2.16e-15   -9.37e-16   -9.37e-16   -1.08e-15   -1.08e-15
+dQbdVdb:   3.93e-19   -5.71e-19   -3.26e-19    2.39e-19   -7.95e-20
+dQbdVsb:  -2.14e-16   -2.62e-16   -2.61e-16   -1.04e-16   -1.03e-16
+
 Name:      m:x1:8      m:x1:6      m:x1:5      m:x1:2      m:x1:12
 Model:    x1:cmosn    x1:cmosn    x1:cmosn    x1:cmosn    x1:cmosn
 Id:        7.97e-06    2.69e-06    2.71e-06    5.41e-06    4.07e-06
@@ -91,8 +157,8 @@ dQbdVsb:  -2.14e-16   -2.62e-16   -2.61e-16   -1.04e-16   -1.03e-16
 
 
 
-Date: Mon Nov 05 04:05:46 2018
-Total elapsed time: 0.332 seconds.
+Date: Mon Nov 05 04:16:07 2018
+Total elapsed time: 0.416 seconds.
 
 tnom = 27
 temp = 27
@@ -102,8 +168,8 @@ traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 29
-fillins = 16
+matrix size = 55
+fillins = 30
 solver = Normal
-Matrix Compiler1:     156 opcodes
-Matrix Compiler2: 2.73 KB object code size
+Matrix Compiler1:     299 opcodes
+Matrix Compiler2: 5.20 KB object code size
