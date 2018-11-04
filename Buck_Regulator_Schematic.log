@@ -22,8 +22,6 @@ Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 C4: Increased Cpar to 1e-011
 C3: Increased Cpar to 1e-011
-C2: Increased Cpar to 1e-011
-C1: Increased Cpar to 1e-011
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
@@ -101,21 +99,21 @@ Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 
-Date: Sun Nov 04 10:36:13 2018
-Total elapsed time: 256.340 seconds.
+Date: Sun Nov 04 18:30:57 2018
+Total elapsed time: 1089.095 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 851536
-traniter = 851175
-tranpoints = 202630
-accept = 145451
-rejected = 57179
+totiter = 2908731
+traniter = 2908370
+tranpoints = 742160
+accept = 516302
+rejected = 225858
 matrix size = 126
 fillins = 146
 solver = Normal
-Thread vector: 496.3/114.4[4] 64.9/46.7[4] 35.2/19.3[4] 5.1/8.0[1]  2592/500
-Matrix Compiler1: 22.46 KB object code size  18.6/10.8/[8.9]
-Matrix Compiler2: 15.18 KB object code size  10.5/15.6/[8.7]
+Thread vector: 334.1/243.7[4] 297.4/123.8[4] 19.7/11.1[4] 3.5/13.1[1]  2592/500
+Matrix Compiler1: 22.46 KB object code size  19.6/14.2/[10.7]
+Matrix Compiler2: 15.18 KB object code size  10.8/22.3/[6.2]
 
