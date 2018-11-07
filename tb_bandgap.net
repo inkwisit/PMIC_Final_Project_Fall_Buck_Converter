@@ -1,0 +1,51 @@
+* C:\Users\subha\OneDrive\Documents\GitHub\PMIC_Final_Project_Fall_Buck_Converter\tb_bandgap.asc
+XX1 N001 0 vref bandgap_reference
+V1 N001 0 PULSE(0 1.8 0 1n)
+
+* block symbol definitions
+.subckt bandgap_reference VDDA GNDA Vref
+M1 N007 N001 VDDA VDDA CMOSP l=360n w=2.5u
+M2 N005 N001 VDDA VDDA CMOSP l=360n w=2.5u
+M3 Vref N002 VDDA VDDA CMOSP l=360n w=2.5u
+R1 Vref GNDA 90k
+R2 N007 N009 10k
+R3 N007 GNDA 124.608k
+Q1 GNDA GNDA N005 0 pnp_v50x50_mm
+R4 N005 GNDA 124.608k
+M4 N001 N004 VDDA VDDA CMOSP l=360n w=2.5u
+M5 N004 N004 VDDA VDDA CMOSP l=360n w=2.5u
+Q2 GNDA GNDA N009 0 pnp_v50x50_mm
+Q3 GNDA GNDA N009 0 pnp_v50x50_mm
+Q4 GNDA GNDA N009 0 pnp_v50x50_mm
+Q5 GNDA GNDA N009 0 pnp_v50x50_mm
+Q6 GNDA GNDA N009 0 pnp_v50x50_mm
+Q7 GNDA GNDA N009 0 pnp_v50x50_mm
+Q8 GNDA GNDA N009 0 pnp_v50x50_mm
+Q9 GNDA GNDA N009 0 pnp_v50x50_mm
+M6 N001 N005 N006 N006 CMOSN l=360n w=500n
+M7 N004 N007 N006 N006 CMOSN l=360n w=500n
+M8 N006 vbn0 GNDA GNDA CMOSN l=720n w=2u
+M9 vbn0 vbn0 GNDA GNDA CMOSP l=720n w=2u
+M10 vbn0 N003 VDDA VDDA CMOSP l=360n w=2.5u
+Q10 N008 N010 GNDA 0 2N3904
+R5 N010 GNDA 1Meg
+Q11 N003 N008 N010 0 2N3904
+M11 N003 N003 VDDA VDDA CMOSP l=360n w=2.5u
+R6 VDDA N008 1Meg
+C1 VDDA N005 1p
+R7 N002 N001 100k
+.include tsmc018.lib
+.include mm180_bjt_v121.mdl
+.ends bandgap_reference
+
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\subha\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\subha\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 5m
+;step temp -40 125 1
+.meas TRAN vreference FIND V(vref) AT 49u
+.backanno
+.end

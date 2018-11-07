@@ -1,9 +1,46 @@
 Circuit: * C:\Users\subha\OneDrive\Documents\GitHub\PMIC_Final_Project_Fall_Buck_Converter\tb_bandgap.asc
 
+Questionable use of curly braces in ".model pnp_v50x50_mm pnp level = 1 is = {5.6e-18*dis_pnp_v50x50_mm} bf = {1.38*dbf_pnp_v50x50_mm} nf = {1.034*dnf_pnp_v50x50_mm} vaf = 785 ikf = 0.0021 ise = 1e-20 ne = 1.049 br = 0.00013 nr = 1.02 var = 55 ikr = 0.0021 isc = 1.05e-12 nc = 1.44 rb = 266.4 irb = 2.3e-05 rbm = 59.48 re = {0.001*dre_pnp_v50x50_mm} rc = {0.12*drc_pnp_v50x50_mm} tlevc = 1 xtb = 1.48 eg = 1.17 xti = 2.38 trb1 = 0.0035 cje = {2.85e-14*dcje_pnp_v50x50_mm} vje = 0.762 mje = 0.395 cjc = {2.81e-14*dcjc_pnp_v50x50_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.0035 trm2 = 0"
+    Error: undefined symbol in: "5.6e-18*[dis_pnp_v50x50_mm]"
+Questionable use of curly braces in ".model pnp_v50x50_mm pnp level = 1 is = (5.6e-18*dis_pnp_v50x50_mm) bf = {1.38*dbf_pnp_v50x50_mm} nf = {1.034*dnf_pnp_v50x50_mm} vaf = 785 ikf = 0.0021 ise = 1e-20 ne = 1.049 br = 0.00013 nr = 1.02 var = 55 ikr = 0.0021 isc = 1.05e-12 nc = 1.44 rb = 266.4 irb = 2.3e-05 rbm = 59.48 re = {0.001*dre_pnp_v50x50_mm} rc = {0.12*drc_pnp_v50x50_mm} tlevc = 1 xtb = 1.48 eg = 1.17 xti = 2.38 trb1 = 0.0035 cje = {2.85e-14*dcje_pnp_v50x50_mm} vje = 0.762 mje = 0.395 cjc = {2.81e-14*dcjc_pnp_v50x50_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.0035 trm2 = 0"
+    Error: undefined symbol in: "1.38*[dbf_pnp_v50x50_mm]"
+Questionable use of curly braces in ".model pnp_v50x50_mm pnp level = 1 is = (5.6e-18*dis_pnp_v50x50_mm) bf = (1.38*dbf_pnp_v50x50_mm) nf = {1.034*dnf_pnp_v50x50_mm} vaf = 785 ikf = 0.0021 ise = 1e-20 ne = 1.049 br = 0.00013 nr = 1.02 var = 55 ikr = 0.0021 isc = 1.05e-12 nc = 1.44 rb = 266.4 irb = 2.3e-05 rbm = 59.48 re = {0.001*dre_pnp_v50x50_mm} rc = {0.12*drc_pnp_v50x50_mm} tlevc = 1 xtb = 1.48 eg = 1.17 xti = 2.38 trb1 = 0.0035 cje = {2.85e-14*dcje_pnp_v50x50_mm} vje = 0.762 mje = 0.395 cjc = {2.81e-14*dcjc_pnp_v50x50_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.0035 trm2 = 0"
+    Error: undefined symbol in: "1.034*[dnf_pnp_v50x50_mm]"
+Questionable use of curly braces in ".model pnp_v50x50_mm pnp level = 1 is = (5.6e-18*dis_pnp_v50x50_mm) bf = (1.38*dbf_pnp_v50x50_mm) nf = (1.034*dnf_pnp_v50x50_mm) vaf = 785 ikf = 0.0021 ise = 1e-20 ne = 1.049 br = 0.00013 nr = 1.02 var = 55 ikr = 0.0021 isc = 1.05e-12 nc = 1.44 rb = 266.4 irb = 2.3e-05 rbm = 59.48 re = {0.001*dre_pnp_v50x50_mm} rc = {0.12*drc_pnp_v50x50_mm} tlevc = 1 xtb = 1.48 eg = 1.17 xti = 2.38 trb1 = 0.0035 cje = {2.85e-14*dcje_pnp_v50x50_mm} vje = 0.762 mje = 0.395 cjc = {2.81e-14*dcjc_pnp_v50x50_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.0035 trm2 = 0"
+    Error: undefined symbol in: "0.001*[dre_pnp_v50x50_mm]"
+Questionable use of curly braces in ".model pnp_v50x50_mm pnp level = 1 is = (5.6e-18*dis_pnp_v50x50_mm) bf = (1.38*dbf_pnp_v50x50_mm) nf = (1.034*dnf_pnp_v50x50_mm) vaf = 785 ikf = 0.0021 ise = 1e-20 ne = 1.049 br = 0.00013 nr = 1.02 var = 55 ikr = 0.0021 isc = 1.05e-12 nc = 1.44 rb = 266.4 irb = 2.3e-05 rbm = 59.48 re = (0.001*dre_pnp_v50x50_mm) rc = {0.12*drc_pnp_v50x50_mm} tlevc = 1 xtb = 1.48 eg = 1.17 xti = 2.38 trb1 = 0.0035 cje = {2.85e-14*dcje_pnp_v50x50_mm} vje = 0.762 mje = 0.395 cjc = {2.81e-14*dcjc_pnp_v50x50_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.0035 trm2 = 0"
+    Error: undefined symbol in: "0.12*[drc_pnp_v50x50_mm]"
+Questionable use of curly braces in ".model pnp_v50x50_mm pnp level = 1 is = (5.6e-18*dis_pnp_v50x50_mm) bf = (1.38*dbf_pnp_v50x50_mm) nf = (1.034*dnf_pnp_v50x50_mm) vaf = 785 ikf = 0.0021 ise = 1e-20 ne = 1.049 br = 0.00013 nr = 1.02 var = 55 ikr = 0.0021 isc = 1.05e-12 nc = 1.44 rb = 266.4 irb = 2.3e-05 rbm = 59.48 re = (0.001*dre_pnp_v50x50_mm) rc = (0.12*drc_pnp_v50x50_mm) tlevc = 1 xtb = 1.48 eg = 1.17 xti = 2.38 trb1 = 0.0035 cje = {2.85e-14*dcje_pnp_v50x50_mm} vje = 0.762 mje = 0.395 cjc = {2.81e-14*dcjc_pnp_v50x50_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.0035 trm2 = 0"
+    Error: undefined symbol in: "2.85e-14*[dcje_pnp_v50x50_mm]"
+Questionable use of curly braces in ".model pnp_v50x50_mm pnp level = 1 is = (5.6e-18*dis_pnp_v50x50_mm) bf = (1.38*dbf_pnp_v50x50_mm) nf = (1.034*dnf_pnp_v50x50_mm) vaf = 785 ikf = 0.0021 ise = 1e-20 ne = 1.049 br = 0.00013 nr = 1.02 var = 55 ikr = 0.0021 isc = 1.05e-12 nc = 1.44 rb = 266.4 irb = 2.3e-05 rbm = 59.48 re = (0.001*dre_pnp_v50x50_mm) rc = (0.12*drc_pnp_v50x50_mm) tlevc = 1 xtb = 1.48 eg = 1.17 xti = 2.38 trb1 = 0.0035 cje = (2.85e-14*dcje_pnp_v50x50_mm) vje = 0.762 mje = 0.395 cjc = {2.81e-14*dcjc_pnp_v50x50_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.0035 trm2 = 0"
+    Error: undefined symbol in: "2.81e-14*[dcjc_pnp_v50x50_mm]"
+Questionable use of curly braces in ".model pnp_v100x100_mm pnp level = 1 is = {2.8e-17*dis_pnp_v100x100_mm} bf = {1.36*dbf_pnp_v100x100_mm} nf = {1.054*dnf_pnp_v100x100_mm} vaf = 785 ikf = 0.005 ise = 1.1e-18 ne = 1.049 br = 0.00063 nr = 1.06 var = 55 ikr = 0.027 isc = 1.95e-12 nc = 1.44 rb = 66.4 irb = 1e-06 rbm = 59.48 re = {0.001*dre_pnp_v100x100_mm} rc = {0.12*drc_pnp_v100x100_mm} tlevc = 1 xtb = 1.298 eg = 1.17 xti = 1.98 trb1 = 0.004 tre1 = 0.001 cje = {1.14e-13*dcje_pnp_v100x100_mm} vje = 0.762 mje = 0.395 cjc = {4.81e-14*dcjc_pnp_v100x100_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.004 trm2 = 0"
+    Error: undefined symbol in: "2.8e-17*[dis_pnp_v100x100_mm]"
+Questionable use of curly braces in ".model pnp_v100x100_mm pnp level = 1 is = (2.8e-17*dis_pnp_v100x100_mm) bf = {1.36*dbf_pnp_v100x100_mm} nf = {1.054*dnf_pnp_v100x100_mm} vaf = 785 ikf = 0.005 ise = 1.1e-18 ne = 1.049 br = 0.00063 nr = 1.06 var = 55 ikr = 0.027 isc = 1.95e-12 nc = 1.44 rb = 66.4 irb = 1e-06 rbm = 59.48 re = {0.001*dre_pnp_v100x100_mm} rc = {0.12*drc_pnp_v100x100_mm} tlevc = 1 xtb = 1.298 eg = 1.17 xti = 1.98 trb1 = 0.004 tre1 = 0.001 cje = {1.14e-13*dcje_pnp_v100x100_mm} vje = 0.762 mje = 0.395 cjc = {4.81e-14*dcjc_pnp_v100x100_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.004 trm2 = 0"
+    Error: undefined symbol in: "1.36*[dbf_pnp_v100x100_mm]"
+Questionable use of curly braces in ".model pnp_v100x100_mm pnp level = 1 is = (2.8e-17*dis_pnp_v100x100_mm) bf = (1.36*dbf_pnp_v100x100_mm) nf = {1.054*dnf_pnp_v100x100_mm} vaf = 785 ikf = 0.005 ise = 1.1e-18 ne = 1.049 br = 0.00063 nr = 1.06 var = 55 ikr = 0.027 isc = 1.95e-12 nc = 1.44 rb = 66.4 irb = 1e-06 rbm = 59.48 re = {0.001*dre_pnp_v100x100_mm} rc = {0.12*drc_pnp_v100x100_mm} tlevc = 1 xtb = 1.298 eg = 1.17 xti = 1.98 trb1 = 0.004 tre1 = 0.001 cje = {1.14e-13*dcje_pnp_v100x100_mm} vje = 0.762 mje = 0.395 cjc = {4.81e-14*dcjc_pnp_v100x100_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.004 trm2 = 0"
+    Error: undefined symbol in: "1.054*[dnf_pnp_v100x100_mm]"
+Questionable use of curly braces in ".model pnp_v100x100_mm pnp level = 1 is = (2.8e-17*dis_pnp_v100x100_mm) bf = (1.36*dbf_pnp_v100x100_mm) nf = (1.054*dnf_pnp_v100x100_mm) vaf = 785 ikf = 0.005 ise = 1.1e-18 ne = 1.049 br = 0.00063 nr = 1.06 var = 55 ikr = 0.027 isc = 1.95e-12 nc = 1.44 rb = 66.4 irb = 1e-06 rbm = 59.48 re = {0.001*dre_pnp_v100x100_mm} rc = {0.12*drc_pnp_v100x100_mm} tlevc = 1 xtb = 1.298 eg = 1.17 xti = 1.98 trb1 = 0.004 tre1 = 0.001 cje = {1.14e-13*dcje_pnp_v100x100_mm} vje = 0.762 mje = 0.395 cjc = {4.81e-14*dcjc_pnp_v100x100_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.004 trm2 = 0"
+    Error: undefined symbol in: "0.001*[dre_pnp_v100x100_mm]"
+Questionable use of curly braces in ".model pnp_v100x100_mm pnp level = 1 is = (2.8e-17*dis_pnp_v100x100_mm) bf = (1.36*dbf_pnp_v100x100_mm) nf = (1.054*dnf_pnp_v100x100_mm) vaf = 785 ikf = 0.005 ise = 1.1e-18 ne = 1.049 br = 0.00063 nr = 1.06 var = 55 ikr = 0.027 isc = 1.95e-12 nc = 1.44 rb = 66.4 irb = 1e-06 rbm = 59.48 re = (0.001*dre_pnp_v100x100_mm) rc = {0.12*drc_pnp_v100x100_mm} tlevc = 1 xtb = 1.298 eg = 1.17 xti = 1.98 trb1 = 0.004 tre1 = 0.001 cje = {1.14e-13*dcje_pnp_v100x100_mm} vje = 0.762 mje = 0.395 cjc = {4.81e-14*dcjc_pnp_v100x100_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.004 trm2 = 0"
+    Error: undefined symbol in: "0.12*[drc_pnp_v100x100_mm]"
+Questionable use of curly braces in ".model pnp_v100x100_mm pnp level = 1 is = (2.8e-17*dis_pnp_v100x100_mm) bf = (1.36*dbf_pnp_v100x100_mm) nf = (1.054*dnf_pnp_v100x100_mm) vaf = 785 ikf = 0.005 ise = 1.1e-18 ne = 1.049 br = 0.00063 nr = 1.06 var = 55 ikr = 0.027 isc = 1.95e-12 nc = 1.44 rb = 66.4 irb = 1e-06 rbm = 59.48 re = (0.001*dre_pnp_v100x100_mm) rc = (0.12*drc_pnp_v100x100_mm) tlevc = 1 xtb = 1.298 eg = 1.17 xti = 1.98 trb1 = 0.004 tre1 = 0.001 cje = {1.14e-13*dcje_pnp_v100x100_mm} vje = 0.762 mje = 0.395 cjc = {4.81e-14*dcjc_pnp_v100x100_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.004 trm2 = 0"
+    Error: undefined symbol in: "1.14e-13*[dcje_pnp_v100x100_mm]"
+Questionable use of curly braces in ".model pnp_v100x100_mm pnp level = 1 is = (2.8e-17*dis_pnp_v100x100_mm) bf = (1.36*dbf_pnp_v100x100_mm) nf = (1.054*dnf_pnp_v100x100_mm) vaf = 785 ikf = 0.005 ise = 1.1e-18 ne = 1.049 br = 0.00063 nr = 1.06 var = 55 ikr = 0.027 isc = 1.95e-12 nc = 1.44 rb = 66.4 irb = 1e-06 rbm = 59.48 re = (0.001*dre_pnp_v100x100_mm) rc = (0.12*drc_pnp_v100x100_mm) tlevc = 1 xtb = 1.298 eg = 1.17 xti = 1.98 trb1 = 0.004 tre1 = 0.001 cje = (1.14e-13*dcje_pnp_v100x100_mm) vje = 0.762 mje = 0.395 cjc = {4.81e-14*dcjc_pnp_v100x100_mm} vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.004 trm2 = 0"
+    Error: undefined symbol in: "4.81e-14*[dcjc_pnp_v100x100_mm]"
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
+Error on line 42 : .model x1:pnp_v50x50_mm pnp level = 1 is = (5.6e-18*dis_pnp_v50x50_mm) bf = (1.38*dbf_pnp_v50x50_mm) nf = (1.034*dnf_pnp_v50x50_mm) vaf = 785 ikf = 0.0021 ise = 1e-20 ne = 1.049 br = 0.00013 nr = 1.02 var = 55 ikr = 0.0021 isc = 1.05e-12 nc = 1.44 rb = 266.4 irb = 2.3e-05 rbm = 59.48 re = (0.001*dre_pnp_v50x50_mm) rc = (0.12*drc_pnp_v50x50_mm) tlevc = 1 xtb = 1.48 eg = 1.17 xti = 2.38 trb1 = 0.0035 cje = (2.85e-14*dcje_pnp_v50x50_mm) vje = 0.762 mje = 0.395 cjc = (2.81e-14*dcjc_pnp_v50x50_mm) vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.0035 trm2 = 0
+	* Unrecognized parameter "*dis_pnp_v50x50_mm" -- ignored
+	* Unrecognized parameter "*dbf_pnp_v50x50_mm" -- ignored
+	* Unrecognized parameter "*dnf_pnp_v50x50_mm" -- ignored
+	* Unrecognized parameter "*dre_pnp_v50x50_mm" -- ignored
+	* Unrecognized parameter "*drc_pnp_v50x50_mm" -- ignored
+	* Unrecognized parameter "tlevc" -- ignored
+	* Unrecognized parameter "*dcje_pnp_v50x50_mm" -- ignored
+	* Unrecognized parameter "*dcjc_pnp_v50x50_mm" -- ignored
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
@@ -14,23 +51,23 @@ Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 .OP point found by inspection.
 
-vreference: v(vref)=0.359272 at 4.9e-005
+vreference: v(vref)=0.963528 at 4.9e-005
 
 
-Date: Tue Nov 06 21:03:21 2018
-Total elapsed time: 0.931 seconds.
+Date: Wed Nov 07 22:03:36 2018
+Total elapsed time: 0.945 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2612
-traniter = 2612
-tranpoints = 1219
-accept = 1177
-rejected = 42
+totiter = 2581
+traniter = 2581
+tranpoints = 1199
+accept = 1165
+rejected = 34
 matrix size = 47
 fillins = 8
 solver = Normal
 Matrix Compiler1: 4.13 KB object code size  2.7/2.1/[1.5]
-Matrix Compiler2: 4.31 KB object code size  1.2/2.2/[1.2]
+Matrix Compiler2: 4.31 KB object code size  1.1/2.2/[1.2]
 
