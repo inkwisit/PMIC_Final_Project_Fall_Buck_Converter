@@ -32,7 +32,7 @@ Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
-Error on line 42 : .model x1:pnp_v50x50_mm pnp level = 1 is = (5.6e-18*dis_pnp_v50x50_mm) bf = (1.38*dbf_pnp_v50x50_mm) nf = (1.034*dnf_pnp_v50x50_mm) vaf = 785 ikf = 0.0021 ise = 1e-20 ne = 1.049 br = 0.00013 nr = 1.02 var = 55 ikr = 0.0021 isc = 1.05e-12 nc = 1.44 rb = 266.4 irb = 2.3e-05 rbm = 59.48 re = (0.001*dre_pnp_v50x50_mm) rc = (0.12*drc_pnp_v50x50_mm) tlevc = 1 xtb = 1.48 eg = 1.17 xti = 2.38 trb1 = 0.0035 cje = (2.85e-14*dcje_pnp_v50x50_mm) vje = 0.762 mje = 0.395 cjc = (2.81e-14*dcjc_pnp_v50x50_mm) vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.0035 trm2 = 0
+Error on line 37 : .model x1:pnp_v50x50_mm pnp level = 1 is = (5.6e-18*dis_pnp_v50x50_mm) bf = (1.38*dbf_pnp_v50x50_mm) nf = (1.034*dnf_pnp_v50x50_mm) vaf = 785 ikf = 0.0021 ise = 1e-20 ne = 1.049 br = 0.00013 nr = 1.02 var = 55 ikr = 0.0021 isc = 1.05e-12 nc = 1.44 rb = 266.4 irb = 2.3e-05 rbm = 59.48 re = (0.001*dre_pnp_v50x50_mm) rc = (0.12*drc_pnp_v50x50_mm) tlevc = 1 xtb = 1.48 eg = 1.17 xti = 2.38 trb1 = 0.0035 cje = (2.85e-14*dcje_pnp_v50x50_mm) vje = 0.762 mje = 0.395 cjc = (2.81e-14*dcjc_pnp_v50x50_mm) vjc = 0.458 mjc = 0.75 fc = 0.5 trm1 = 0.0035 trm2 = 0
 	* Unrecognized parameter "*dis_pnp_v50x50_mm" -- ignored
 	* Unrecognized parameter "*dbf_pnp_v50x50_mm" -- ignored
 	* Unrecognized parameter "*dnf_pnp_v50x50_mm" -- ignored
@@ -50,24 +50,154 @@ Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 .OP point found by inspection.
-
-vreference: v(vref)=0.963528 at 4.9e-005
-
-
-Date: Wed Nov 07 22:03:36 2018
-Total elapsed time: 0.945 seconds.
-
-tnom = 27
-temp = 27
-method = modified trap
-totiter = 2581
-traniter = 2581
-tranpoints = 1199
-accept = 1165
-rejected = 34
-matrix size = 47
-fillins = 8
-solver = Normal
-Matrix Compiler1: 4.13 KB object code size  2.7/2.1/[1.5]
-Matrix Compiler2: 4.31 KB object code size  1.1/2.2/[1.2]
-
+.step temp=-40°C
+.step temp=-39°C
+.step temp=-38°C
+.step temp=-37°C
+.step temp=-36°C
+.step temp=-35°C
+.step temp=-34°C
+.step temp=-33°C
+.step temp=-32°C
+.step temp=-31°C
+.step temp=-30°C
+.step temp=-29°C
+.step temp=-28°C
+.step temp=-27°C
+.step temp=-26°C
+.step temp=-25°C
+.step temp=-24°C
+.step temp=-23°C
+.step temp=-22°C
+.step temp=-21°C
+.step temp=-20°C
+.step temp=-19°C
+.step temp=-18°C
+.step temp=-17°C
+.step temp=-16°C
+.step temp=-15°C
+.step temp=-14°C
+.step temp=-13°C
+.step temp=-12°C
+.step temp=-11°C
+.step temp=-10°C
+.step temp=-9°C
+.step temp=-8°C
+.step temp=-7°C
+.step temp=-6°C
+.step temp=-5°C
+.step temp=-4°C
+.step temp=-3°C
+.step temp=-2°C
+.step temp=-1°C
+.step temp=0°C
+.step temp=1°C
+.step temp=2°C
+.step temp=3°C
+.step temp=4°C
+.step temp=5°C
+.step temp=6°C
+.step temp=7°C
+.step temp=8°C
+.step temp=9°C
+.step temp=10°C
+.step temp=11°C
+.step temp=12°C
+.step temp=13°C
+.step temp=14°C
+.step temp=15°C
+.step temp=16°C
+.step temp=17°C
+.step temp=18°C
+.step temp=19°C
+.step temp=20°C
+.step temp=21°C
+.step temp=22°C
+.step temp=23°C
+.step temp=24°C
+.step temp=25°C
+.step temp=26°C
+.step temp=27°C
+.step temp=28°C
+.step temp=29°C
+.step temp=30°C
+.step temp=31°C
+.step temp=32°C
+.step temp=33°C
+.step temp=34°C
+.step temp=35°C
+.step temp=36°C
+.step temp=37°C
+.step temp=38°C
+.step temp=39°C
+.step temp=40°C
+.step temp=41°C
+.step temp=42°C
+.step temp=43°C
+.step temp=44°C
+.step temp=45°C
+.step temp=46°C
+.step temp=47°C
+.step temp=48°C
+.step temp=49°C
+.step temp=50°C
+.step temp=51°C
+.step temp=52°C
+.step temp=53°C
+.step temp=54°C
+.step temp=55°C
+.step temp=56°C
+.step temp=57°C
+.step temp=58°C
+.step temp=59°C
+.step temp=60°C
+.step temp=61°C
+.step temp=62°C
+.step temp=63°C
+.step temp=64°C
+.step temp=65°C
+.step temp=66°C
+.step temp=67°C
+.step temp=68°C
+.step temp=69°C
+.step temp=70°C
+.step temp=71°C
+.step temp=72°C
+.step temp=73°C
+.step temp=74°C
+.step temp=75°C
+.step temp=76°C
+.step temp=77°C
+.step temp=78°C
+.step temp=79°C
+.step temp=80°C
+.step temp=81°C
+.step temp=82°C
+.step temp=83°C
+.step temp=84°C
+.step temp=85°C
+.step temp=86°C
+.step temp=87°C
+.step temp=88°C
+.step temp=89°C
+.step temp=90°C
+.step temp=91°C
+.step temp=92°C
+.step temp=93°C
+.step temp=94°C
+.step temp=95°C
+.step temp=96°C
+.step temp=97°C
+.step temp=98°C
+.step temp=99°C
+.step temp=100°C
+.step temp=101°C
+.step temp=102°C
+.step temp=103°C
+.step temp=104°C
+.step temp=105°C
+.step temp=106°C
+.step temp=107°C
+.step temp=108°C
+.step temp=109°C
+Fatal Error: Could not open file "C:\Users\subha\OneDrive\Documents\GitHub\PMIC_Final_Project_Fall_Buck_Converter\tb_bandgap.raw" for output
