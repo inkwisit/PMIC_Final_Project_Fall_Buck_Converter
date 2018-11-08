@@ -70,6 +70,9 @@ C2: Increased Cpar to 2.2e-012
 C1: Increased Cpar to 2.2e-012
 C4: Increased Cpar to 2.2e-012
 C3: Increased Cpar to 2.2e-012
+WARNING: Node X6:NC_01 is floating.
+
+WARNING: Less than two connections to node X6:NC_01.  This node is used by M:X6:13.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
@@ -151,3 +154,23 @@ Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 0.000560857 to 0.000560857
+
+Date: Thu Nov 08 17:17:23 2018
+Total elapsed time: 6641.967 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 14389594
+traniter = 14389550
+tranpoints = 4785023
+accept = 3287561
+rejected = 1497463
+matrix size = 117
+fillins = 170
+solver = Normal
+Thread vector: 442.0/309.4[4] 157.2/70.8[4] 40.3/24.0[4] 3.2/12.6[1]  2592/500
+Matrix Compiler1: 24.31 KB object code size  24.8/17.5/[13.4]
+Matrix Compiler2: 15.47 KB object code size  7.4/9.6/[5.0]
+
