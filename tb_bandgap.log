@@ -48,21 +48,358 @@ Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Direct Newton iteration for .op point succeeded.
+.step temp=-40°C
+.step temp=-39°C
+.step temp=-38°C
+.step temp=-37°C
+.step temp=-36°C
+.step temp=-35°C
+.step temp=-34°C
+.step temp=-33°C
+.step temp=-32°C
+.step temp=-31°C
+.step temp=-30°C
+.step temp=-29°C
+.step temp=-28°C
+.step temp=-27°C
+.step temp=-26°C
+.step temp=-25°C
+.step temp=-24°C
+.step temp=-23°C
+.step temp=-22°C
+.step temp=-21°C
+.step temp=-20°C
+.step temp=-19°C
+.step temp=-18°C
+.step temp=-17°C
+.step temp=-16°C
+.step temp=-15°C
+.step temp=-14°C
+.step temp=-13°C
+.step temp=-12°C
+.step temp=-11°C
+.step temp=-10°C
+.step temp=-9°C
+.step temp=-8°C
+.step temp=-7°C
+.step temp=-6°C
+.step temp=-5°C
+.step temp=-4°C
+.step temp=-3°C
+.step temp=-2°C
+.step temp=-1°C
+.step temp=0°C
+.step temp=1°C
+.step temp=2°C
+.step temp=3°C
+.step temp=4°C
+.step temp=5°C
+.step temp=6°C
+.step temp=7°C
+.step temp=8°C
+.step temp=9°C
+.step temp=10°C
+.step temp=11°C
+.step temp=12°C
+.step temp=13°C
+.step temp=14°C
+.step temp=15°C
+.step temp=16°C
+.step temp=17°C
+.step temp=18°C
+.step temp=19°C
+.step temp=20°C
+.step temp=21°C
+.step temp=22°C
+.step temp=23°C
+.step temp=24°C
+.step temp=25°C
+.step temp=26°C
+.step temp=27°C
+.step temp=28°C
+.step temp=29°C
+.step temp=30°C
+.step temp=31°C
+.step temp=32°C
+.step temp=33°C
+.step temp=34°C
+.step temp=35°C
+.step temp=36°C
+.step temp=37°C
+.step temp=38°C
+.step temp=39°C
+.step temp=40°C
+.step temp=41°C
+.step temp=42°C
+.step temp=43°C
+.step temp=44°C
+.step temp=45°C
+.step temp=46°C
+.step temp=47°C
+.step temp=48°C
+.step temp=49°C
+.step temp=50°C
+.step temp=51°C
+.step temp=52°C
+.step temp=53°C
+.step temp=54°C
+.step temp=55°C
+.step temp=56°C
+.step temp=57°C
+.step temp=58°C
+.step temp=59°C
+.step temp=60°C
+.step temp=61°C
+.step temp=62°C
+.step temp=63°C
+.step temp=64°C
+.step temp=65°C
+.step temp=66°C
+.step temp=67°C
+.step temp=68°C
+.step temp=69°C
+.step temp=70°C
+.step temp=71°C
+.step temp=72°C
+.step temp=73°C
+.step temp=74°C
+.step temp=75°C
+.step temp=76°C
+.step temp=77°C
+.step temp=78°C
+.step temp=79°C
+.step temp=80°C
+.step temp=81°C
+.step temp=82°C
+.step temp=83°C
+.step temp=84°C
+.step temp=85°C
+.step temp=86°C
+.step temp=87°C
+.step temp=88°C
+.step temp=89°C
+.step temp=90°C
+.step temp=91°C
+.step temp=92°C
+.step temp=93°C
+.step temp=94°C
+.step temp=95°C
+.step temp=96°C
+.step temp=97°C
+.step temp=98°C
+.step temp=99°C
+.step temp=100°C
+.step temp=101°C
+.step temp=102°C
+.step temp=103°C
+.step temp=104°C
+.step temp=105°C
+.step temp=106°C
+.step temp=107°C
+.step temp=108°C
+.step temp=109°C
+.step temp=110°C
+.step temp=111°C
+.step temp=112°C
+.step temp=113°C
+.step temp=114°C
+.step temp=115°C
+.step temp=116°C
+.step temp=117°C
+.step temp=118°C
+.step temp=119°C
+.step temp=120°C
+.step temp=121°C
+.step temp=122°C
+.step temp=123°C
+.step temp=124°C
+.step temp=125°C
 
-Date: Sat Nov 10 13:06:47 2018
-Total elapsed time: 0.654 seconds.
+
+Measurement: vref
+  step	v(vref)	at
+     1	0.515853	0.001
+     2	0.515594	0.001
+     3	0.515336	0.001
+     4	0.515079	0.001
+     5	0.514822	0.001
+     6	0.514567	0.001
+     7	0.514312	0.001
+     8	0.514058	0.001
+     9	0.513805	0.001
+    10	0.513553	0.001
+    11	0.513301	0.001
+    12	0.51305	0.001
+    13	0.512801	0.001
+    14	0.512551	0.001
+    15	0.512303	0.001
+    16	0.512055	0.001
+    17	0.511808	0.001
+    18	0.511562	0.001
+    19	0.511316	0.001
+    20	0.511071	0.001
+    21	0.510827	0.001
+    22	0.510583	0.001
+    23	0.510341	0.001
+    24	0.510098	0.001
+    25	0.509857	0.001
+    26	0.509616	0.001
+    27	0.509376	0.001
+    28	0.509136	0.001
+    29	0.508897	0.001
+    30	0.508659	0.001
+    31	0.508421	0.001
+    32	0.508184	0.001
+    33	0.507966	0.001
+    34	0.507816	0.001
+    35	0.507495	0.001
+    36	0.507227	0.001
+    37	0.506985	0.001
+    38	0.506793	0.001
+    39	0.506519	0.001
+    40	0.506325	0.001
+    41	0.506053	0.001
+    42	0.505861	0.001
+    43	0.50572	0.001
+    44	0.505399	0.001
+    45	0.505147	0.001
+    46	0.505025	0.001
+    47	0.504797	0.001
+    48	0.504492	0.001
+    49	0.504254	0.001
+    50	0.504008	0.001
+    51	0.50381	0.001
+    52	0.503585	0.001
+    53	0.5033	0.001
+    54	0.503142	0.001
+    55	0.502897	0.001
+    56	0.502677	0.001
+    57	0.502644	0.001
+    58	0.502198	0.001
+    59	0.502197	0.001
+    60	0.501775	0.001
+    61	0.501548	0.001
+    62	0.501342	0.001
+    63	0.501111	0.001
+    64	0.500892	0.001
+    65	0.500675	0.001
+    66	0.500647	0.001
+    67	0.500294	0.001
+    68	0.500069	0.001
+    69	0.499989	0.001
+    70	0.499699	0.001
+    71	0.499504	0.001
+    72	0.499056	0.001
+    73	0.498927	0.001
+    74	0.498741	0.001
+    75	0.498467	0.001
+    76	0.498257	0.001
+    77	0.49804	0.001
+    78	0.497899	0.001
+    79	0.497668	0.001
+    80	0.497397	0.001
+    81	0.497177	0.001
+    82	0.496958	0.001
+    83	0.496748	0.001
+    84	0.49653	0.001
+    85	0.496338	0.001
+    86	0.496101	0.001
+    87	0.496098	0.001
+    88	0.495885	0.001
+    89	0.49546	0.001
+    90	0.495459	0.001
+    91	0.495128	0.001
+    92	0.49482	0.001
+    93	0.4946	0.001
+    94	0.494382	0.001
+    95	0.494183	0.001
+    96	0.493958	0.001
+    97	0.493753	0.001
+    98	0.493484	0.001
+    99	0.49332	0.001
+   100	0.493205	0.001
+   101	0.492913	0.001
+   102	0.492696	0.001
+   103	0.492541	0.001
+   104	0.492298	0.001
+   105	0.492088	0.001
+   106	0.491878	0.001
+   107	0.491668	0.001
+   108	0.491459	0.001
+   109	0.491249	0.001
+   110	0.491039	0.001
+   111	0.49083	0.001
+   112	0.490621	0.001
+   113	0.490412	0.001
+   114	0.490202	0.001
+   115	0.489993	0.001
+   116	0.489784	0.001
+   117	0.489574	0.001
+   118	0.489429	0.001
+   119	0.489218	0.001
+   120	0.489008	0.001
+   121	0.488708	0.001
+   122	0.488497	0.001
+   123	0.488375	0.001
+   124	0.488116	0.001
+   125	0.487862	0.001
+   126	0.487655	0.001
+   127	0.487512	0.001
+   128	0.487232	0.001
+   129	0.487052	0.001
+   130	0.486873	0.001
+   131	0.486709	0.001
+   132	0.486447	0.001
+   133	0.486168	0.001
+   134	0.485975	0.001
+   135	0.485781	0.001
+   136	0.48553	0.001
+   137	0.485313	0.001
+   138	0.485098	0.001
+   139	0.484946	0.001
+   140	0.484667	0.001
+   141	0.484482	0.001
+   142	0.484234	0.001
+   143	0.484096	0.001
+   144	0.483833	0.001
+   145	0.483656	0.001
+   146	0.483393	0.001
+   147	0.483171	0.001
+   148	0.482947	0.001
+   149	0.482723	0.001
+   150	0.482497	0.001
+   151	0.48227	0.001
+   152	0.482041	0.001
+   153	0.481811	0.001
+   154	0.481579	0.001
+   155	0.481345	0.001
+   156	0.48111	0.001
+   157	0.480872	0.001
+   158	0.480632	0.001
+   159	0.480389	0.001
+   160	0.480145	0.001
+   161	0.479897	0.001
+   162	0.479646	0.001
+   163	0.479393	0.001
+   164	0.479137	0.001
+   165	0.478877	0.001
+   166	0.478613	0.001
+
+
+Date: Tue Nov 13 00:26:17 2018
+Total elapsed time: 107.651 seconds.
 
 tnom = 27
-temp = 27
+temp = 125
 method = modified trap
-totiter = 4040
-traniter = 4011
-tranpoints = 1959
-accept = 1711
-rejected = 248
+totiter = 4160
+traniter = 4135
+tranpoints = 2031
+accept = 1749
+rejected = 282
 matrix size = 40
 fillins = 2
 solver = Normal
-Matrix Compiler1: 3.12 KB object code size  2.1/1.6/[1.3]
-Matrix Compiler2: off  [0.9]/1.9/1.2
+Matrix Compiler1: 3.12 KB object code size  2.1/1.6/[1.1]
+Matrix Compiler2: off  [0.9]/1.9/1.1
 

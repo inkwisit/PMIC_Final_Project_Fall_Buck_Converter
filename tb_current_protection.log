@@ -12,6 +12,18 @@ Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+WARNING: Node NC_01 is floating.
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
@@ -42,21 +54,21 @@ Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 .OP point found by inspection.
 
-Date: Fri Nov 09 11:05:01 2018
-Total elapsed time: 0.808 seconds.
+Date: Mon Nov 12 23:20:57 2018
+Total elapsed time: 1.373 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3026
-traniter = 3026
-tranpoints = 1179
-accept = 1136
-rejected = 43
-matrix size = 36
+totiter = 4232
+traniter = 4232
+tranpoints = 1383
+accept = 1282
+rejected = 101
+matrix size = 41
 fillins = 62
 solver = Normal
-Thread vector: 152.1/121.3[4] 338.4/40.0[4] 9.2/11.8[1] 1.2/17.5[1]  2592/500
-Matrix Compiler1: 9.08 KB object code size  6.7/5.7/[2.6]
-Matrix Compiler2: 5.23 KB object code size  1.6/3.0/[1.6]
+Thread vector: 181.9/107.4[4] 32.0/15.3[4] 8.1/5.8[4] 1.1/5.5[1]  2592/500
+Matrix Compiler1: 9.69 KB object code size  6.3/5.7/[2.9]
+Matrix Compiler2: 5.82 KB object code size  1.7/2.9/[1.6]
 
